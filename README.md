@@ -1,4 +1,4 @@
-# Green Screen Effect with OpenCV
+# Green Screen with OpenCV
 
 This repository contains a C++ script that demonstrates how to create a green screen effect using OpenCV. The script captures live video from a webcam, identifies the green background, and replaces it with a specified background image. This README explains how to compile and run the script.
 
