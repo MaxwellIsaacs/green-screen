@@ -18,10 +18,7 @@ git clone https://github.com/MaxwellIsaacs/green-screen/tree/main
 ```
 
 ## Usage
-- **Compile**: `g++ -std=c++11 -o green234 greenscreen.cpp \                                  
--I/usr/local/Cellar/opencv/4.8.1_4/include/opencv4 \
--L/usr/local/Cellar/opencv/4.8.1_4/lib \ 
--lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio`
+- **Compile**: `g++ -std=c++11 -o [EXECUTABLE-NAME] greenscreen.cpp -I/usr/local/Cellar/opencv/4.8.1_4/include/opencv4   \                                  -L/usr/local/Cellar/opencv/4.8.1_4/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio`
 - **Run the Script**: `./[executable-name]`
 - **Background Image**: Place your background image in the script's directory or update the path in the script: 
   `cv::Mat background = cv::imread("[path-to-your-background-image]");`
