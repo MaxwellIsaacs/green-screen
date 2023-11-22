@@ -9,7 +9,7 @@ Before you begin, ensure you have the following installed:
 - OpenCV (version 4.x)
 - A C++ compiler (GCC or Clang)
 
-### Clone the Repository
+## Clone the Repository
 
 Use Git to clone the repository to your local machine:
 
