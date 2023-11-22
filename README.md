@@ -35,5 +35,7 @@ g++ -std=c++11 -o [EXECUTABLE-NAME] greenscreen.cpp -I/usr/local/Cellar/opencv/4
 - Replaces green areas with a background image.
 - Exit with the ESC key.
 
-Happy coding.
+
+
+Happy coding
 
