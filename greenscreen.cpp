@@ -5,7 +5,7 @@ int main() {
     * @brief Load the background image.
     * @param background Path to the background image.
     */
-    cv::Mat background = cv::imread("/Users/maxwellisaacs/Desktop/france.jpg");
+    cv::Mat background = cv::imread("[YOUR-IMAGE-PATH]");
     if (background.empty()) {
         std::cerr << "Error: Unable to load background image" << std::endl;
         return -1;
